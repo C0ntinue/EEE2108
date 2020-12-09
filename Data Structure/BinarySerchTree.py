@@ -156,10 +156,10 @@ if __name__ == '__main__':
     t.in_order_traversal()
 
 # test traversal methods
-tt=BinarySearchTree()
-v= [21, 28, 14, 32, 25, 18, 11, 30, 19, 15, 5, 12, 23, 27, 37]
-for value in v:
-    tt.insert(value)
-tt.post_order_traversal()
-tt.in_order_traversal()
-tt.pre_order_traversal()
+# tt=BinarySearchTree()
+# v= [21, 28, 14, 32, 25, 18, 11, 30, 19, 15, 5, 12, 23, 27, 37]
+# for value in v:
+#     tt.insert(value)
+# tt.post_order_traversal()
+# tt.in_order_traversal()
+# tt.pre_order_traversal()
