@@ -10,9 +10,9 @@ class BinarySearchTree:
 
     def find(self, key):
         """
-        
-        :param key: 
-        :return: 
+
+        :param key:
+        :return:
         """
         self.__find(self)
 
@@ -155,10 +155,11 @@ if __name__ == '__main__':
     t.remove(130)
     t.in_order_traversal()
 
-# test
+# test traversal methods
 tt=BinarySearchTree()
-for value in range(5):
+v= [21, 28, 14, 32, 25, 18, 11, 30, 19, 15, 5, 12, 23, 27, 37]
+for value in v:
     tt.insert(value)
-
-print(tt.root.data)
-print(tt.root.left.data)
+tt.post_order_traversal()
+tt.in_order_traversal()
+tt.pre_order_traversal()
